@@ -2,7 +2,7 @@
 IO-Homework
 
 ##요구사항
-- [ ]1. bitcoin_request(hash)
+- [x]1. bitcoin_request(hash)
   >+ 트랜잭션(tx) 수 = n_tx
   >+ 평균 트랜잭션의 값(value) = (out_value / n_tx)
   >+ 평균 트랜잭션의 수수료(fee) = (fee / n_tx)
