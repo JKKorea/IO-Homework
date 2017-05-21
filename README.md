@@ -8,5 +8,5 @@ IO-Homework
   >+ 평균 트랜잭션의 수수료(fee) = (fee / n_tx)
   >+ 평균 트랜잭션의 크기(size) = (size / n_tx)
 
-  - [x]2. bitcoin_outinfo(hash)
+  - [x] 2. bitcoin_outinfo(hash)
   >+ out 내용 출력(spend, tx_index, type, addr, value, n, script)
