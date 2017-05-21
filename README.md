@@ -11,6 +11,13 @@ IO-Homework
   - [x] 2. bitcoin_outinfo(hash)
   >+ out 내용 출력(spend, tx_index, type, addr, value, n, script)
 
+# 문제 접근 방식
+  - node.js를 사용한 이유 -> IO에서 사용, bitcoin 관련 lib와 자료.
+  - 규모 고려 -> 비트코인 개발자 api 요청 limit 고려 -> key 발급 소요시간 2~3 days <br>
+    일단은 request(maxmimum of 1 every 10 seconds) -> 추후 과정 고려.
+  - 참고사항의 블록 확인 API와 용어 정리를 참고하여 직접적으로 주어지지 않은 것은 계산. (요구사항1)
+  - 모듈화 -> bitcoin_request(), bitcoin_outinfo()로 기능 분리.
+  
 # 기능
   >+ 트랜잭션 정보 조회(요구사항1)
   >+ 트랜잭션 out정보 조회(요구사항2) -> console
@@ -22,6 +29,6 @@ IO-Homework
   - [x] 기능구현
   - [x] console -> web
   - [ ] TDD (Mocha)
-  - [ ] 모듈화
+  - [x] 모듈화 (bitcoin_request, bitcoin_outinfo)
   - [ ] 문제 접근 방식
   - [ ] 정보전달(deploy)
