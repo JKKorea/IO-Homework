@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= lastPrice %></title>
+</head>
+<body>
+    <% include header %>
+    <h2>Create My Wallet</h2>
+    <form method="post" action="/wallet">
+        <input type="text" name="src">
+        <input type="submit" value="Go">
+    </form>
+</body>
+</html>

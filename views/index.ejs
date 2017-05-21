@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Bitcoin Site</title>
+</head>
+<body>
+    <% include header %>
+    
+    <br>트랜잭션(tx) 수 : <%= n_tx %> <br>
+    평균 트랜잭션의 값(value) : <%= out_value / n_tx %> <br>
+    평균 트랜잭션의 수수료(fee) : <%= fee / n_tx; %> <br>
+    평균 트랜잭션의 크기(size) : <%= size / n_tx %> <br>
+</body>
+</html>
