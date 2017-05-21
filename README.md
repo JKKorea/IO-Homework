@@ -18,6 +18,7 @@ IO-Homework
   >+ BTC USD Converter -> bitcore-lib 사용
 
 # 진행사항
+  - [x] <a href="http://bitpeople.kr/bbs/board.php?bo_table=Info_BIP&wr_id=38" target="_blank">용어 정리</a>
   - [x] 기능구현
   - [x] console -> web
   - [ ] TDD (Mocha)
