@@ -33,4 +33,4 @@ IO-Homework
   - [x] TDD (Mocha)
   - [x] 모듈화 (bitcoin_request, bitcoin_outinfo)
   - [x] 문제 접근 방식
-  - [x] 정보전달(deploy)  <a href="52.78.122.133:80/" target="_blank">deploy</a>
+  - [x] 정보전달(deploy)  <a href="52.78.122.133">deploy</a>
